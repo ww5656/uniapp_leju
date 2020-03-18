@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mine-main.data-v-0a9bc3b0 {
+  width: 90%;
+  margin: 0 auto;
+}
+.mine-main .header.data-v-0a9bc3b0 {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    padding-top: 10rpx;
+}
+.mine-main .header .avatar.data-v-0a9bc3b0 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+}
+.mine-main .header .avatar image.data-v-0a9bc3b0 {
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 100%;
+}
+.mine-main .header .avatar .username.data-v-0a9bc3b0 {
+        margin-left: 32rpx;
+}
+.mine-main .header .avatar .username ._p.data-v-0a9bc3b0 {
+          line-height: 40rpx;
+}
+.mine-main .header .set-icon.data-v-0a9bc3b0 {
+      width: 50rpx;
+      height: 50rpx;
+}
+.mine-main .header .set-icon ._img.data-v-0a9bc3b0 {
+        width: 100%;
+        height: 100%;
+}
+.mine-main .btns.data-v-0a9bc3b0 {
+    margin-top: 40rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.mine-main .btns .button.data-v-0a9bc3b0 {
+      width: 182rpx;
+      height: 72rpx;
+      text-align: center;
+      line-height: 72rpx;
+      font-size: 30rpx;
+      color: #ffffff;
+      margin: 0 20rpx;
+      border-radius: 10rpx;
+      border: 2rpx solid #3d4c46;
+}
+.mine-main .btns .drop.data-v-0a9bc3b0 {
+      background: red;
+      border: 2rpx solid red;
+}
+.mine-main .btns .registered.data-v-0a9bc3b0 {
+      color: #3d4c46;
+}
+.mine-main .btns .login.data-v-0a9bc3b0 {
+      background: #354e44;
+      border: 2rpx solid #354e44;
+}
+.mine-main .menu-top.data-v-0a9bc3b0 {
+    width: 100%;
+    height: 208rpx;
+    background-color: #fff;
+    margin-top: 60rpx;
+}
+.mine-main .menu-top .order.data-v-0a9bc3b0 {
+      width: 80%;
+      margin: 0 auto;
+      height: 80rpx;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      border-bottom: 1rpx solid #dddddd;
+}
+.mine-main .menu-top .order ._p.data-v-0a9bc3b0 {
+        font-size: 26rpx;
+        color: #3e3e3e;
+        line-height: 36rpx;
+}
+.mine-main .menu-top .order ._span.data-v-0a9bc3b0 {
+        width: 26rpx;
+        height: 26rpx;
+}
+.mine-main .menu-top .order ._span ._img.data-v-0a9bc3b0 {
+          width: 100%;
+          height: 100%;
+}
+.mine-main .menu-top .menu-top-list.data-v-0a9bc3b0 {
+      margin: 0 auto;
+      width: 80%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+              justify-content: space-between;
+}
+.mine-main .menu-top .menu-top-list .menu-top-item.data-v-0a9bc3b0 {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        width: 84rpx;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        text-align: center;
+        font-size: 26rpx;
+        color: #3e3e3e;
+}
+.mine-main .menu-top .menu-top-list .menu-top-item ._img.data-v-0a9bc3b0 {
+          width: 40rpx;
+          height: 36rpx;
+          margin-top: 20rpx;
+}
+.mine-main .menu-top .menu-top-list .menu-top-item ._span.data-v-0a9bc3b0 {
+          margin-top: 20rpx;
+}
+.mine-main .menu-bot.data-v-0a9bc3b0 {
+    width: 100%;
+    background-color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-top: 40rpx;
+}
+.mine-main .menu-bot .menu-bot-item.data-v-0a9bc3b0 {
+      width: calc(100% / 3);
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+              align-items: center;
+      text-align: center;
+      font-size: 26rpx;
+      color: #3e3e3e;
+      padding: 30rpx 0;
+}
+.mine-main .menu-bot .menu-bot-item ._img.data-v-0a9bc3b0 {
+        width: 40rpx;
+        height: 36rpx;
+        margin-top: 20rpx;
+}
+.mine-main .menu-bot .menu-bot-item ._span.data-v-0a9bc3b0 {
+        margin-top: 20rpx;
+}
+
